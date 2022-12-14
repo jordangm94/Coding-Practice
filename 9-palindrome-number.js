@@ -6,10 +6,10 @@ var isPalindrome = function(num) {
 
   //Use == instead of === so that string to number comparison can be made
   if (num == numReversed) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
-}
+};
 
 console.log(isPalindrome(125));
